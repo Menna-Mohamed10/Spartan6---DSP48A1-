@@ -33,16 +33,16 @@ This project implements a configurable **DSP48A1 slice** in Verilog, featuring:
 Each DSP path is tested with controlled `OPMODE` values and delayed output checking based on pipeline register stages:
 
 1. **Path 1**: Pre-subtractor + Multiplier + C input  
-   ![Path 1](docs/questa-waveform-path1.png)
+   ![Path 1](docs/questa_waveform_path1.png)
 
 2. **Path 2**: Pre-adder + zero propagation  
-   ![Path 2](docs/questa-waveform-path2.png)
+   ![Path 2](docs/questa_waveform_path2.png)
 
 3. **Path 3**: Feedback-based accumulator  
-   ![Path 3](docs/questa-waveform-path3.png)
+   ![Path 3](docs/questa_waveform_path3.png)
 
 4. **Path 4**: D:A:B concatenation + PCIN  
-   ![Path 4](docs/questa-waveform-path4.png)
+   ![Path 4](docs/questa_waveform_path4.png)
 
 Each test path includes self-checking verification.
 
@@ -68,20 +68,19 @@ Each test path includes self-checking verification.
 
 | Phase                   | Snapshot |
 |-------------------------|----------|
-| Elaboration             | ![Elaboration](docs/elaboration-schematic.png) |
-| Synthesis (Utilization) | ![Synthesis Util](docs/synthesis-utilization.png) |
-| Synthesis (Timing)      | ![Synthesis Timing](docs/synthesis-timing.png) |
-| Implementation (Util.)  | ![Impl Util](docs/implementation-utilization.png) |
-| Implementation (Timing) | ![Impl Timing](docs/implementation-timing.png) |
-| Device View             | ![Device View](docs/device-view.png) |
+| Elaboration             | ![Elaboration](docs/elaboration_schematic.png) |
+| Synthesis (Utilization) | ![Synthesis Util](docs/synthesis_utilization.png) |
+| Synthesis (Timing)      | ![Synthesis Timing](docs/synthesis_timing.png) |
+| Implementation (Util.)  | ![Impl Util](docs/implementation_utilization.png) |
+| Implementation (Timing) | ![Impl Timing](docs/implementation_timing.png) |
+| Device View             | ![Device View](docs/device_view.png) |
 
 ---
 
 ## 🔍 Clean Linting & Logs
 
 - ✅ No design rule violations or syntax issues
-- ✅ Linting Passed  
-  ![Linting](docs/linting-clean.png)
+- ✅ Linting Passed 
 
 ---
 
